@@ -1,12 +1,11 @@
 // feetToMile
-
+var feet = 5000;
+var mile = feet/5280; 
 function feetToMile(feet){
-    var feet = inch / ;
+    var mile = feet /5280;
     return feet;
 }
 
-var result = inchToFeet(144);
-console.log(result)
 
 
 
@@ -27,8 +26,10 @@ console.log(WoodCalculator);
 
 
 //BrickCalculator
+    var feet = 1200
+function brickCalculator(floor){
 
-
+}
 
 
 
@@ -36,17 +37,18 @@ console.log(WoodCalculator);
 //tinyFriend
 
 
-function friendTiny(number){
-    var largest = number[0];
-    for (var i = 0; i < number.length; i++){
-        var currentNumber = numbers[i];
-        if(currentNumber > largest){
+function friendTiny(name){
+    var smallest = name[0];
+
+    for (var i = 0; i < name.length; i++){
+        var smallest = name[i];
+        if(smallest > largest){
             largest = currentNumber;
         }
     }
-    return largest;
+    return smallest;
 }
 
-var largestNumber = biggestNumber("nisha","bishti","sajjadul","lipi","kitis","priyanka")
+var smallest = friendTiny["nisha","bishti","sajjadul","lipi","kitis","priyanka"];
 
-console.log(largestNumber);
+console.log(smallest);
